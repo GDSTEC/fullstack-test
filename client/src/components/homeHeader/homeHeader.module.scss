@@ -1,0 +1,17 @@
+.homeContainerHeader {
+  width: 100%;
+}
+
+.homeHeaderDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.homeHeaderP {
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}

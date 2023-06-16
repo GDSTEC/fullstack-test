@@ -1,0 +1,39 @@
+.pagescontainerHeader {
+  width: 100%;
+}
+
+.pagesHeaderDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.pagesHeaderP {
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.pagesHeaderUl {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.pagesHeaderLi {
+  list-style-type: none;
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #ea4c8965;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.pagesHeaderLi:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #ea4c89;
+}

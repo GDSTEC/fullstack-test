@@ -1,0 +1,39 @@
+.homeBoxsComponentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.homeBoxsComponentBox {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ea4c89;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.homeBoxsComponentBox:hover {
+  background-color: #e03677d3;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.homeBoxsComponentP {
+  color: #ffffff;
+  font-size: clamp(1rem, 1rem, 1.5rem);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.homeBoxsComponentIcon {
+  padding: 4px;
+}
